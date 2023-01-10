@@ -1,0 +1,1767 @@
+Household Pulse Survey,,,,,,
+Data Dictionary for CSV - Week51,,,,,,
+,,,,,,
+,,,,,,
+Instrument Q #,Variable,Description,,Question Wording,Range,Phases / Notes
+D1,TBIRTH_YEAR,Description,Year of birth,What year were you born? Please enter a number.,1934:2004,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,1934-2004,,,Changed Range in January 2022 from 1933:2003
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,Topcoded 1934-2004,,,
+Recode of D2,RHISPANIC,Description,Hispanic origin,"Are you of Hispanic, Latino, or Spanish origin? - Selected Choice",1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) No, not of Hispanic, Latino, or Spanish origin  
+2) Yes, of Hispanic, Latino, or Spanish origin",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+Recode of D3,RRACE,Description,Race,What is your race? Please select all that apply. - Selected Choice,1:4,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) White, Alone
+2) Black, Alone
+3) Asian, Alone
+4) Any other race alone, or race in combination",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D4,EEDUC,Description,Educational attainment,"What is the highest
+degree or level of school you have completed? Select
+only one answer.",1:7,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Less than high school
+2) Some high school
+3) High school graduate or equivalent (for example GED)
+4) Some college, but degree not received or is in progress
+5) Associate’s degree (for example AA, AS)
+6) Bachelor's degree (for example BA, BS, AB)
+7) Graduate degree (for example master's, professional, doctorate)",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D5,MS,Description,Marital status,"What is your marital
+status? Select only one answer.",1:5,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Now married 
+2) Widowed
+3) Divorced
+4) Separated
+5) Never married
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D6,EGENID_BIRTH,Description,Gender at birth,"What sex were you assigned at birth, on your original birth certificate?",1:2,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Male 
+2) Female",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D7,GENID_DESCRIBE,Description,Current gender identity,"Do you currently describe yourself as male, female or transgender?",1:4,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Male 
+2) Female
+3) Transgender
+4) None of these
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D9,SEXUAL_ORIENTATION,Description,Sexual orientation,Which of the following best represents how you think of yourself?,1:5,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Gay or lesbian
+2) Straight, that is not gay or lesbian
+3) Bisexual
+4) Something else
+5) I don’t know
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D10,THHLD_NUMPER,Description,Total number of people in household,"How many total people – adults and children
+– currently live in your household, including yourself? Please enter a number.",1:40,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,(1-40) number of people (whole number),,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D11,THHLD_NUMKID,Description,Total number of people under 18-years-old in household,"How many people under 18 years-old currently live in
+your household? Please
+enter a number.",0:40,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,(0-40) number of people under 18 (whole number),,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+Recode of D10 and D11,THHLD_NUMADLT,Description,Recode for the number of Adults in the household,<Recode for the number of Adults in the household>,1:40,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,1-40) number of people (whole number),,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D12,KIDS_LT5Y,Description,"In your household, are there… Select all that apply.","In your household, are there… Select all that apply.","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Children under 5 in hhld
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D12,KIDS_5_11Y,Description,"In your household, are there… Select all that apply.","In your household, are there… Select all that apply.","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Children 5 through 11 years old
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D12,KIDS_12_17Y,Description,"In your household, are there… Select all that apply.","In your household, are there… Select all that apply.","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Children 12 through 17 years old
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D13,ENRPUBCHK,Description,Enrolled in public school (checkbox),"The next set of questions ask about education.
+
+During the school year that started in the Fall of 2020, how many children in this household were enrolled in Kindergarten through 12th grade or grade equivalent? ","<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Enrolled in public school checkbox selected
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D13,TENROLLPUB,Description,Number enrolled in public school,"The next set of questions ask about education.
+
+During the school year that started in the Fall of 2020, how many children in this household were enrolled in Kindergarten through 12th grade or grade equivalent?  Enter numbers for all that apply. Enter ‘0’ if none. ",1:40,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,(0-20) number of children (whole number),,,Changed in 3.1 to collect number in each category
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D13,ENRPRVCHK,Description,Enrolled in private school (checkbox),"The next set of questions ask about education.
+
+During the school year that started in the Fall of 2020, how many children in this household were enrolled in Kindergarten through 12th grade or grade equivalent? ","<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Enrolled in private school checkbox selected
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D13,TENROLLPRV,Description,Number enrolled in private school,"The next set of questions ask about education.
+
+During the school year that started in the Fall of 2020, how many children in this household were enrolled in Kindergarten through 12th grade or grade equivalent?  Enter numbers for all that apply. Enter ‘0’ if none. ",0:40,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,(0-20) number of children (whole number),,,Changed in 3.1 to collect number in each category
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D13,ENRHMSCHK,Description,Homeschooled (checkbox),"The next set of questions ask about education.
+
+During the school year that started in the Fall of 2020, how many children in this household were enrolled in Kindergarten through 12th grade or grade equivalent? ","<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Homeschooled checkbox selected
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D13,TENROLLHMSCH,Description,"Number homeschooled, that is not enrolled in public or private school ","The next set of questions ask about education.
+
+During the school year that started in the Fall of 2020, how many children in this household were enrolled in Kindergarten through 12th grade or grade equivalent?  Enter numbers for all that apply. Enter ‘0’ if none. ",1:40,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,(0-20) number of children (whole number),,,Changed in 3.1 to collect number in each category
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D13,ENROLLNONE,Description,Reporting children enrolled in none of the school types,"The next set of questions ask about education.
+
+During the school year that started in the Fall of 2020, how many children in this household were enrolled in Kindergarten through 12th grade or grade equivalent? 
+Enter numbers for all that apply. Enter ‘0’ if none. ","<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) None
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Changed in 3.1 to collect number in each category
+,,Universe,THHLD_NUMKID > 0 ,,,
+,,Internal Notes,This is an exclusive category,,,
+D14,ACTVDUTY1,Description,Active duty or reserves self or spouse,"Are you or your spouse currently serving in the U.S. Armed Forces (Active Duty, Reserve, or National Guard)?","<blank>,1","3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Added in cycle 27
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D14,ACTVDUTY2,Description,Active duty or reserves self or spouse,"Are you or your spouse currently serving in the U.S. Armed Forces (Active Duty, Reserve, or National Guard)?","<blank>,1","3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes, I'm serving on active duty
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Added in cycle 27
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D14,ACTVDUTY3,Description,Active duty or reserves self or spouse,"Are you or your spouse currently serving in the U.S. Armed Forces (Active Duty, Reserve, or National Guard)?","<blank>,1","3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes, I'm serving in the Reserve or National Guard
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Added in cycle 27
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D14,ACTVDUTY4,Description,Active duty or reserves self or spouse,"Are you or your spouse currently serving in the U.S. Armed Forces (Active Duty, Reserve, or National Guard)?","<blank>,1","3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes, my spouse is serving on active duty
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Added in cycle 27
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+D14,ACTVDUTY5,Description,Active duty or reserves self or spouse,"Are you or your spouse currently serving in the U.S. Armed Forces (Active Duty, Reserve, or National Guard)?","<blank>,1","3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes, my spouse is serving in the Reserve or National Guard
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Added in cycle 27
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+VAC1,RECVDVACC,Description,Received COVID - 19 vaccine,Have you received a COVID-19 vaccine?,1:2,"3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Added in cycle 22
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+VAC2,NUMDOSES,Description,Number of doses received,Which of the following best describes your COVID-19 vaccine status (not including boosters),1:52,"3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"2) I received 2 doses of a two-shot series or a single dose vaccine like Johnson & Johnson
+1) I received one dose of a two-shot series like Moderna or Pfizer
+-99) Question seen but category not selected
+-88 ) Missing / Did not report",,,"Added in cycle 22. Revised answer categories for 3.2
+Revised again for 3.3
+Revised questsion wording and asnwer categories for 3.5
+Revised questsion wording and asnwer categories for 3.6"
+,,Universe,RECVDACC = 1,,,
+,,Internal Notes,,,,
+VAC2_BOOSTER,BOOSTERRV,Description,Received COVID-19 vaccine booster,"Have you received at least one COVID-19 vaccine booster?
+",1:3,"3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Phase 3.5: Formally RBOOSTER in 3.4
+,,Universe,RECVDACC = 1,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR1,Description,Why not get vaccine booster booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) I am not yet eligible to receive a COVID-19 booster dose
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR2,Description,Why not get vaccine booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) I plan to get a booster and am eligible, but haven’t made an appointment or haven’t had time to do it
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR3,Description,Why not get vaccine booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) I don’t believe a COVID-19 booster is necessary 
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR4,Description,Why not get vaccine booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) My doctor has not recommended it
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR5,Description,Why not get vaccine booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) I already had COVID-19
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR6,Description,Why not get vaccine booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) I am not required to get a COVID-19 booster (by my work or school)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR7,Description,Why not get vaccine booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) I experienced side effects from my previous dose(s) of the COVID-19 vaccine
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR8,Description,Why not get vaccine booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) It's hard for me to get a COVID-19 booster dose because I do not have transportation or cannot get an appointment
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC4_B,WHYNOBSTR9,Description,Why not get vaccine booster,"Which of the following, if any, are reasons that you have not received a COVID-19 booster dose? Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) Other (please specify)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,RECVDVACC = 1 and BOOSTERRV = 2,,,
+,,Internal Notes,,,,
+VAC5_A,KIDDOSESRV,Description,Children received at least one does of a Vaccine,"Have any of the children living in your household received at least one dose of a COVID-19 vaccine?  Please respond “yes” if any of the children living in your household have received at least one dose, even if some of the children have not. ",1:3,"3.5, 3.6"
+,,Values,"1) Yes
+2) No
+3) Don't know
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+VAC5_B1,KIDDOSESRV_LT5Y,Description,Fully vaccinated children under 5,Are any of the children under 5 years old fully vaccinated against COVID-19?,1:3,3.6
+,,Values,"1) Yes
+2) No
+3) Don't know
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,KIDDOSESRV = 1 and KIDS_LT5Y = 1,,,
+,,Internal Notes,,,,
+VAC5_B2,KIDDOSESRV_5_11Y,Description,Fully vaccinated children between 5  - 11,Are any of the children 5-11 years old fully vaccinated against COVID-19?,1:3,"3.5, 3.6"
+,,Values,"1) Yes
+2) No
+3) Don't know
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,KIDDOSESRV = 1 and KIDS_5_11Y = 1,,,
+,,Internal Notes,,,,
+VAC5_B3,KIDDOSESRV_12_17Y,Description,Fully vaccinated children between 12 - 17,Are any of the children 12-17 years old fully vaccinated against COVID-19?,1:3,"3.5, 3.6"
+,,Values,"1) Yes
+2) No
+3) Don't know
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,KIDDOSESRV = 1 and KIDS_12_17Y = 1,,,
+,,Internal Notes,,,,
+VAC5_C2,KIDBSTR_5_11Y,Description,Boostered children between 5 - 11,Have any of the children 5-11 years old received a booster or additional doses of a COVID-19 vaccine?,1:3,"3.5, 3.6"
+,,Values,"1) Yes
+2) No
+3) Don't know
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,KIDDOSESRV_5_11Y=1,,,
+,,Internal Notes,,,,
+VAC5_C3,KIDBSTR_12_17Y,Description,Boostered children between 12 - 17,Have any of the children 12-17 years old received a booster or additional doses of a COVID-19 vaccine?,1:3,"3.5, 3.6"
+,,Values,"1) Yes
+2) No
+3) Don't know
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,KIDDOSESRV_12_17Y=1,,,
+,,Internal Notes,,,,
+VAC6_1,KIDGETVAC_LT5Y,Description,likelihood of getting vaccinated (less than 5 years old),"Now that vaccines to prevent COVID-19 are available to most children, will the parents or guardians of children  in your household…",1:6,"3.5, 3.6"
+,,Values,"1) Definitely get the children a vaccine
+2) Probably get the children a vaccine
+3) Be unsure about getting the children a vaccine
+4) Probably NOT get the children a vaccine 
+5) Definitely NOT get the children a vaccine
+6) I do not know the plans for vaccination of the children under 5 in my household
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,KIDDOSESRV=2,,,
+,,Internal Notes,,,,
+VAC6_2,KIDGETVAC_5_11Y,Description,likelihood of getting vaccinated (5 to 11 years old),"Now that vaccines to prevent COVID-19 are available to most children, will the parents or guardians of children  in your household…",1:6,"3.5, 3.6"
+,,Values,"1) Definitely get the children a vaccine
+2) Probably get the children a vaccine
+3) Be unsure about getting the children a vaccine
+4) Probably NOT get the children a vaccine 
+5) Definitely NOT get the children a vaccine
+6) I do not know the plans for vaccination of the children under 5 in my household
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,KIDDOSESRV=2,,,
+,,Internal Notes,,,,
+VAC6_3,KIDGETVAC_12_17Y,Description,likelihood of getting vaccinated (12 to 17 years old),"Now that vaccines to prevent COVID-19 are available to most children, will the parents or guardians of children  in your household…",1:6,"3.5, 3.6"
+,,Values,"1) Definitely get the children a vaccine
+2) Probably get the children a vaccine
+3) Be unsure about getting the children a vaccine
+4) Probably NOT get the children a vaccine 
+5) Definitely NOT get the children a vaccine
+6) I do not know the plans for vaccination of the children under 5 in my household
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,KIDDOSESRV=2,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO1,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Concern about possible side effects of a COVID-19 vaccine for children
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO2,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Plan to wait and see if it is safe and may get it later
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO3,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Not sure if a COVID-19 vaccine will work for children
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO4,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Don’t believe children need a COVID-19 vaccine
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO5,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) The children in this household are not members of a high-risk group
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO6,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) The children’s doctor has not recommended it
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO7,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Other people need it more than the children in this household do right now
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO8,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Concern about missing work to have the children vaccinated
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO9,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Unable to get a COVID-19 vaccine for children in this household
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO10,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Parents or guardians in this household do not vaccinate their children 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO11,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Don’t trust COVID-19 vaccines
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO12,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Don’t trust the government
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO13,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Concern about the cost of a COVID-19 vaccine
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC7,KIDWHYNO14,Description,Why not get children vaccinated,"Which of the following, if any, are reasons that the parents or guardians of children living in your household [only probably will / probably won’t/definitely won’t/ are unsure about whether to] get a COVID-19 vaccine for the children? (Select all that apply) ","<blank>,1","3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) other
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if  KIDGETVAC in 2:5,,,
+,,Internal Notes,,,,
+VAC8_B,HADCOVIDRV,Description,Tested positive or  told by Doctor or provider told you that you have COVID,"Have you ever tested (using a rapid point-of-care test, self-test, or laboratory test) positive for COVID-19 or been told by a doctor or other health care provider that you have or had COVID-19?",1:2,"3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,3.5 Update: replaced HADCOVID
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+VAC8_C,WHENCOVID,Description,When did you test  positive or were told you had COVID,When did you test positive or were told you have or had  COVID-19?,1:3,"3.5, 3.6"
+,,Values,"1) Within the last four weeks 
+2) More than four weeks ago
+3) Both
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,HADCOVIDRV =1,,,
+,,Internal Notes,,,,
+TREAT1_A_1,TREATORAL,,Received oral antiviral medications,"The FDA has issued emergency use authorizations (EUAs) for a number of treatments for COVID-19 for people at high risk of severe disease. These include oral antiviral medications or pills that can be taken at home, and monoclonal antibody treatments that can be administered at a doctor’s office or hospital. When you had COVID-19 in the past 4 weeks, did you receive an antiviral or monoclonal antibody treatment, such as a pill or IV infusion?",1:2,"3.5, 3.6"
+,,Values,"1) Yes, received oral antiviral medications (examples: Paxlovid, molnupiravir) 
+2) No, did not receive oral antiviral medications (examples: Paxlovid, molnupiravir)
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,"HADCOVIDRV = 1 and WHENCOVID in (1,3)",,,
+,,Internal Notes,,,,
+TREAT1_A_2,TREATMONO,Description,Received  monoclonal antibody treatments,"Tthe FDA has issued emergency use authorizations (EUAs) for a number of treatments for COVID-19 for people at high risk of severe disease. These include oral antiviral medications or pills that can be taken at home, and monoclonal antibody treatments that can be administered at a doctor’s office or hospital. When you had COVID-19 in the past 4 weeks, did you receive an antiviral or monoclonal antibody treatment, such as a pill or IV infusion?",1:2,"3.5, 3.6"
+,,Values,"1) Yes, received monoclonal antibody treatments (example: sotrovimab)
+2) No, did not receive monoclonal antibody treatments (example: sotrovimab)
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,"HADCOVIDRV = 1 and WHENCOVID in (1,3)",,,
+,,Internal Notes,,,,
+TREAT2_A_1,RSNNOTREAT1,Description,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) I wasn’t very sick/I had no symptoms
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_2,RSNNOTREAT2,Description,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) I didn’t think I needed a treatment
+ -99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_3,RSNNOTREAT3,Description,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) I am not a member of a high-risk group
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_4,RSNNOTREAT4,,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) My healthcare provider did not offer or recommend them
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_5,RSNNOTREAT5,Description,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) I was concerned about possible side effects of these treatments 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_6,RSNNOTREAT6,Description,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) I was concerned about cost
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_7,RSNNOTREAT7,Description,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) I didn’t think these treatments were effective
+ -99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_8,RSNNOTREAT8,,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) It was hard for me or my healthcare provider to get them
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_9,RSNNOTREAT9,Description,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) I hadn’t heard of them
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+TREAT2_A_10,RSNNOTREAT10,Description,Reason for not taking antivirals or monoclonal antibodies,"Which of the following, if any, are reasons that you did not take antivirals or monoclonal antibodies?","<blank>,1","3.5, 3.6"
+,,Values,"1) Other (please specify) _____
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,TREATORAL = 2 and TREATMONO = 2,,,
+,,Internal Notes,,,,
+PASC1,SYMPTOMS,Description,Coronavirus syptoms at their worst,How would you describe your coronavirus symptoms when they were at their worst? ,1:4,"3.5, 3.6"
+,,Values,"1) I had no symptoms
+2) I had mild symptoms
+3) I had moderate symptoms
+4) I had severe symptoms
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,HADCOVIDRV = 1,,,
+,,Internal Notes,,,,
+PASC2,LONGCOVID,Description,COVID-19 or coronavirus symptoms lasting 3 months or longer,"Did you have any symptoms lasting 3 months or longer that you did not have prior to having coronavirus or COVID-19? Long term symptoms may include: tiredness or fatigue, difficulty thinking, concentrating, forgetfulness, or memory problems (sometimes referred to as ""brain fog"", difficulty breathing or shortness of breath, joint or muscle pain, fast-beating or pounding heart (also known as heart palpitations), chest pain, dizziness on standing, menstrual changes, changes to taste/smell, or inability to exercise.",1:2,"3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,HADCOVIDRV = 1,,,
+,,Internal Notes,,,,
+PASC3,SYMPTMNOW,Description,Currently have COVID-19 or coronavirus symptoms,Do you have symptoms now?,1:2,"3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,HADCOVIDRV = 1,,,
+,,Internal Notes,,,,
+PASC4,SYMPTMIMPCT,Description,Long-term COVID-19 symptoms and day-to-day activities,Do these long-term symptoms reduce your ability to carry out day-to-day activities compared with the time before you had COVID-19?,1:3,"3.5, 3.6"
+,,Values,"1) Yes, a lot
+2) Yes, a little 
+3) Not at all   
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New for Phase 3.5
+,,Universe,HADCOVIDRV = 1,,,
+,,Internal Notes,,,,
+EMP1,WRKLOSSRV,Description,Recent household job loss,"Now we are going to ask about your employment. 
+
+Have you, or has anyone in your household experienced a loss of employment income in the last 4 weeks?  Select only one answer. ",1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Cycle 27 changed question's reference period.
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+EMP2,ANYWORK,Description,Employment status for last 7 days,"Now we are going to ask about your employment.
+In the last 7 days, did you do ANY work for either pay or profit? Select only one answer.",1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+EMP3,KINDWORK,Description,Sector of employment,"Are you employed by government, by a private company, a nonprofit organization or are you self-employed or working in a family business? Select only one answer.",1:5,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Government
+2) Private company
+3) Non-profit organization including tax exempt and charitable organizations
+4) Self-employed
+5) Working in a family business
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Cycle 27 changed question's text 'were' to 'are.'
+,,Universe,ANYWORK = 1,,,
+,,Internal Notes,,,,
+EMP4,RSNNOWRKRV,Description,Main reason for not working for pay or profit,"What is your main reason for not working for pay or profit?
+Select only one answer. - Selected Choice",1:13,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) I did not want to be employed at this time
+2)I am/was sick with coronavirus symptoms or caring for someone who was sick with coronavirus symptoms
+3) I am/was caring for children not in school or daycare
+4) I am/was caring for an elderly person
+5) I was concerned about getting or spreading the coronavirus 
+6) I am/was sick (not coronavirus related) or disabled
+7) I am retired
+8) I am/was laid off or furloughed due to coronavirus pandemic
+9) My employer closed temporarily due to the coronavirus pandemic
+10) My employer went out of business due to the coronavirus pandemic
+11) I do/did not have transportation to work
+12) Other reason, please specify
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Cycle 22 1.6.2021 Answer category '11' added for transportation related reasons for not working.
+,,Universe,ANYWORK = 2,,,
+,,Internal Notes,,,,
+EMP6,SETTING,Description,Business or organization type,"What kind of business or industry or organization is this? That is, what do they make or do where you work? Select only one answer. ",1:22,"3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1)  Agriculture, Forestry, Fishing and Hunting  
+2)  Mining, Quarrying, and Oil and Gas Extraction  
+3)  Utilities  
+4)  Construction  
+5)  Manufacturing  
+6)  Wholesale Trade  
+7)  Retail Trade  
+8)  Transportation and Warehousing  
+9)  Information Technology  
+10)  Finance and Insurance  
+11)  Real Estate and Rental and Leasing  
+12)  Professional, Scientific, and Technical Services  
+13)  Management of Companies and Enterprises  
+14)  Administrative and Support Services  
+15)  Waste Management and Remediation Services  
+16)  Educational Services  
+17)  Health Care  
+18)  Social Assistance  
+19)  Arts, Entertainment, and Recreation  
+20)  Accommodation and Food Services  
+21)  Public Administration  
+22)  Other Services (except Public Administration) 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,3.6 Update: Universe change from WKVOL=1 to ANYWORK=1
+,,Universe,ANYWORK = 1,,,
+,,Internal Notes,,,,
+EMPUI1,UI_APPLYRV,Description,UI Applied,"Since June 1, 2022, have you applied for Unemployment Insurance (UI) benefits? Select only one answer.",1:2,"3.1, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"3.6 Update: updated time reference - June 1, 2022"
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+EMPUI2,UI_RECVRV,Description,UI Receive,"Since June 1, 2022, have you received Unemployment Insurance (UI) benefits? Select only one answer. ",1:2,"3.1, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"3.6 Update: updated time reference - June 1, 2022"
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+EMPUI3,UI_RECVNOW,Description,UI Receive  Now,Have you received Unemployment Insurance (UI) benefits in the last 7 days?,1:2,"3.1, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"1.6.2021 New question to be added for March 3.1 change.
+Phase 3.3 readded
+Universe: UI_RECV = 1"
+,,Universe,UI_RECVRV = 1,,,
+,,Internal Notes,,,,
+CCARE1,CCARETYP1,Description,Childcare arrangements in last 7 days,"In the last 7 days, did your household use any of the following individuals or arrangements to look after the children in the household. Select all that apply.","<blank>,1",3.6
+,,Values,"1) Family day care provider caring for 2 or more children outside of your home? 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,THHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+CCARE1,CCARETYP2,Description,Childcare arrangements in last 7 days,"In the last 7 days, did your household use any of the following individuals or arrangements to look after the children in the household. Select all that apply.","<blank>,1",3.6
+,,Values,"1) Child care or day care center?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,THHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+CCARE1,CCARETYP3,Description,Childcare arrangements in last 7 days,"In the last 7 days, did your household use any of the following individuals or arrangements to look after the children in the household. Select all that apply.","<blank>,1",3.6
+,,Values,"1) Nursery or preschool? 
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,THHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+CCARE1,CCARETYP4,Description,Childcare arrangements in last 7 days,"In the last 7 days, did your household use any of the following individuals or arrangements to look after the children in the household. Select all that apply.","<blank>,1",3.6
+,,Values,"1) Before care, aftercare, or summer camp?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,THHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+CCARE1,CCARETYP5,Description,Childcare arrangements in last 7 days,"In the last 7 days, did your household use any of the following individuals or arrangements to look after the children in the household. Select all that apply.","<blank>,1",3.6
+,,Values,"1) Federally supported Head Start program? 
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,THHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+CCARE1,CCARETYP6,Description,Childcare arrangements in last 7 days,"In the last 7 days, did your household use any of the following individuals or arrangements to look after the children in the household. Select all that apply.","<blank>,1",3.6
+,,Values,"1) Non-relative such as a friend, neighbor, sitter, nanny, or aupair?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,THHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+CCARE1,CCARETYP7,Description,Childcare arrangements in last 7 days,"In the last 7 days, did your household use any of the following individuals or arrangements to look after the children in the household. Select all that apply.","<blank>,1",3.6
+,,Values,"1) Relative other than the parent, such as sibling, or grandparent? 
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,THHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+CCARE1,CCARETYP8,Description,Childcare arrangements in last 7 days,"In the last 7 days, did your household use any of the following individuals or arrangements to look after the children in the household. Select all that apply.","<blank>,1",3.6
+,,Values,"1) None of these
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,THHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+CCARE2,CCAREPAY ,Description,Payment for childcare arrangements in last 7 days,"When the children were in these care settings, did you or anyone in the household PAY for childcare? Select only one answer.",1:2,3.6
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,CCARETYP1 = 1 or CCARETYP2 = 1 or CCARETYP3 = 1 or CCARETYP4 = 1 or CCARETYP5 = 1 or CCARETYP6 = 1 or CCARETYP7 = 1,,,
+,,Internal Notes,,,,
+CCARE3,TCCARECOST,Description,Cost of childcare arrangements in last 7 days,"In the last 7 days, how much did your household pay for all the childcare together?",0:3000,3.6
+,,Values,"$0-$3000
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,CCARETYP1 = 1 or CCARETYP2 = 1 or CCARETYP3 = 1 or CCARETYP4 = 1 or CCARETYP5 = 1 or CCARETYP6 = 1 or CCARETYP7 = 1,,,
+,,Internal Notes,,,,
+INFLATE1,PRICECHNG,Description,Perception of price changes,"In the area where you live and shop, do you think the prices for goods and services have changed in the last two months? Select only one answer.",1:4,3.6
+,,Values,"1) I think prices have increased
+2) I do not think prices have changed
+3) I think prices have decreased
+4) I do not know
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+INFLATE2,PRICESTRESS ,Description,Stress of price changes,"How stressful, if at all, has the increase in prices in the last two months been for you? Select only one answer.",1:4,3.6
+,,Values,"1) Very stressful
+2) Moderately stressful
+3) A little stressful
+4) Not at all stressful
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE1,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Shop at stores that offer lower prices, look for sales, and/or use coupons
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE2,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Switch from name brand to generic products
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE3,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Purchase less fresh produce and/or meat
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE4,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Go out to eat less often or order food for delivery less often
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE5,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Cancel or reduce subscription services (e.g., streaming services, meal delivery services, cell phone plan)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE6,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Cancel or decrease plans to attend events
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE7,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Drive less or change mode of transportation (e.g., bike or take metro instead of drive)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE8,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Delay major purchases (e.g., home repair/renovation, vacations, vehicles, home appliances, cell phone or computer)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE9,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Delay medical treatment (e.g., refill prescription, surgery)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE10,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Work additional job(s)/shift(s) to supplement income
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE11,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Contribute less to savings and/or retirement accounts
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE12,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Increase use of credit cards, loans, and/or pawnshops
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE13,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Decrease use of utilities (e.g., cooling, heating, water, electricity)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE14,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Move to less expensive housing
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE15,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Ask friends and/or family for help
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE16,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Change or reduce plans for childcare arrangements to save money
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE17,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Utilize benefits from charities
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE18,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) Other
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE3,PRICECOPE19,Description,Coping with price changes,"What changes, if any, have you made to cope with the increase in prices? (Select all that apply).","<blank>,1",3.6
+,,Values,"1) I have not made any changes
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,PRICECHNG = 1,,,
+,,Internal Notes,,,,
+INFLATE4,PRICECONCRN,Description,Perception of price changes,"In the area you live and shop, how concerned are you, if at all, that prices will increase in the next six months? Select only one answer.",1:4,3.6
+,,Values,"1) Very concerned
+2) Somewhat concerned
+3) A little concerned
+4) Not at all concerned.
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN4,EXPNS_DIF,Description,Difficulty with expenses,"In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer.",1:4,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Not at all difficult
+2) A little difficult
+3) Somewhat difficult
+4) Very difficult 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Modified to streamline series in 3.2
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN5_DAYSTW,TWDAYS,Description,Number of telework days in past week - persons in respondent's household,"In the last 7 days, have any of the people in your household teleworked or worked from home?",1:4,"3.4, 3.5, 3.6"
+,,Values,"1) Yes, for 1-2 days
+2) Yes, for 3-4 days
+3) Yes, for 5 or more days
+4) No
+-99) Question seen but category not selected
+-88) Missing / Did not report ",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN5_DAYSTW_2,TWDAYS_RESP,Description,Number of telework days in past week - respondent,"In the last 7 days, have you teleworked or worked from home?",1:4,3.6
+,,Values,"1) Yes, for 1-2 days
+2) Yes, for 3-4 days
+3) Yes, for 5 or more days
+4) No
+-99) Question seen but category not selected
+-88) Missing / Did not report ",,,New in 3.6
+,,Universe,"TWDAYS in (1,2,3) and ANYWORK = 1",,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV1,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Regular income sources like those received before the pandemic
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV2,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Credit cards or loans
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV3,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Money from savings or selling assets or possessions (including withdrawals from retirement accounts) 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV4,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Borrowing from friends or family
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV5,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Unemployment insurance (UI) benefit payments
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV6,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Money saved from deferred or forgiven payments (to meet your spending needs)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV7,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Supplemental Nutrition Assistance Program (SNAP) 
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV8,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV9,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) School meal debit/EBT cards
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV10,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Government rental assistance
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+SPN6,SPND_SRCRV11,Description,Sources of income and funds for spending needs,"Thinking about your experience in the last 7 days, which of the following did you or your household members use to meet your spending needs?  Select all that apply.","<blank>,1",3.6
+,,Values,"1) Other_specify
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+FD1,CURFOODSUF,Description,Household food sufficiency for last 7 days,"Getting enough food can also be a problem for some people.  In the last 7 days, which of these statements best describes the food eaten in your household? Select only one answer.",1:4,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Enough of the kinds of food (I/we) wanted to eat 
+2) Enough, but not always the kinds of food (I/we) wanted to eat
+3) Sometimes not enough to eat
+4) Often not enough to eat
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Streamlined categories in cycle 27, Phase 3.1"
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+FD2,CHILDFOOD,Description,Children not eating enough because we couldn't afford enough food,"Please indicate whether the next statement was often true, sometimes true, or never true in the last 7 days for the children living in your household who are under 18 years old.  
+
+""The children were not eating enough because we just couldn't afford enough food.""",1:3,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Often true
+2) Sometimes true
+3) Never true
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Streamlined categories in cycle 27, Phase 3.1"
+,,Universe,"If CURFOODSUF in (2, 3, 4) and HHLD_NUMKID > 0",,,
+,,Internal Notes,,,,
+FD3,FOODRSNRV1,Description,Why did you not have enough to eat? Couldn't afford to buy more food,"Why did you not have enough to eat
+(or not what you wanted to eat)? Choose all that
+apply. - Couldn’t afford to buy more food","<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Couldn’t afford to buy more food
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Streamlined categories in cycle 27, Phase 3.1"
+,,Universe,"If CURFOODSUF in (2, 3, 4)",,,
+,,Internal Notes,,,,
+FD3,FOODRSNRV2,Description,"Why did you not have enough to eat? Couldn’t get out to buy food (for example, didn’t have transportation, or had mobility or health problems that prevented you from getting out)  ","Why did you not have enough to eat
+(or not what you wanted to eat)? Choose all that
+apply. - Couldn’t get out to buy food (for example, didn’t have transportation, or had mobility or health problems that prevented you from getting out)  ","<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Couldn’t get to store to buy food because didn’t have transportation, have mobility or health limitations that prevent you from getting out 
+-99) Question seen but category not selected
+-88) Missing / Did not report  ",,,
+,,Universe,"If CURFOODSUF in (2, 3, 4)",,,
+,,Internal Notes,,,,
+FD3,FOODRSNRV3,Description,Why did you not have enough to eat? Safety concerns or no delivery,"Why did you not have enough to eat
+(or not what you wanted to eat)? Choose all that
+apply. - Afraid to go or didn’t want to go out to buy food","<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Couldn’t go to store due to safety concerns and delivery not available 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Phase 3.1 Change in number of categories
+Phase 3.2 combined with schlfood and moved to food section"
+,,Universe,"If CURFOODSUF in (2, 3, 4)",,,
+,,Internal Notes,,,,
+FD3,FOODRSNRV4,Description,Why did you not have enough to eat? No reason,"Why did you not have enough to eat
+(or not what you wanted to eat)? Choose all that
+apply. - Couldn’t get groceries or meals delivered to me","<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) None 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Phase 3.1 Change in number of categories
+Phase 3.2 combined with schlfood and moved to food section"
+,,Universe,"If CURFOODSUF in (2, 3, 4)",,,
+,,Internal Notes,This is an exclusive category,,,
+FD4,FREEFOOD,Description,"During the last 7 days, did you or anyone in your household get free groceries or a free meal?","During the last 7 days, did you or anyone in your household get free groceries from a food pantry, food bank, church, or other place that helps with free food? 
+Select only one answer.",1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Phase 3.1 Change in number of categories
+Phase 3.2 combined with schlfood and moved to food section"
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+FD5,SCHLFDHLP1,Description,School food - Pick up meals at a school or other location,Did the student(s) …(select all that apply) ,"<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Pick up meals at a school or other location
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Phase 3.1 Change in number of categories
+Phase 3.2 combined with schlfood and moved to food section"
+,,Universe,If HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+FD5,SCHLFDHLP2,Description,School food - Receive an EBT card to help buy groceries,Did the student(s) …(select all that apply) ,"<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Receive an EBT card to help buy groceries
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Phase 3.1 Change in number of categories
+Phase 3.2 combined with schlfood and moved to food section"
+,,Universe,If HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+FD5,SCHLFDHLP3,Description,"School food - Eat meals on-site, at school or other location;",Did the student(s) …(select all that apply) ,"<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Eat meals on-site, at school or other location;
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
+,,Universe,If HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+FD5,SCHLFDHLP4,Description,School food - Have meals delivered,Did the student(s) …(select all that apply) ,"<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Have meals delivered 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
+,,Universe,If HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+FD5,NOSCHLFDHLP,Description,School food - Did not receive free meals or food assistance,Did the student(s) …(select all that apply) ,"<blank>,1","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Children did not receive free meals or food assistance 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
+,,Universe,If HHLD_NUMKID > 0,,,
+,,Internal Notes,EXCLUSIVE OF CATEGORIES 1-4,,,
+FD6,SNAP_YN,Description,SNAP Receipt,Do you or does anyone in your household receive benefits from the Supplemental Nutrition Assistance Program (SNAP) or the Food Stamp Program? Select only one answer.,1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+Q28,TSPNDFOOD,Description,Household spent on food & groceries,"During the last 7 days, how much money did you and your household spend on food at supermarkets, grocery stores, online, and other places you buy food to prepare and eat at home? Please include purchases made with SNAP or food stamps.  Enter amount.",$0-$900,"1, 2, 3, 3.1, 3.5, 3.6"
+,,Values,0-900,,,Content not present weeks 33-45. Added back in Phase 3.5.
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+Q29,TSPNDPRPD,Description,Household spent on prepared meals,"During the last 7 days, how much money did you or your household spend on prepared meals, including eating out, fast food, and carry out or delivered meals? Please include money spent in cafeterias at work or at school or on vending machines. Please do not include money you have already told us about in the previous question. Enter amount.",$0-$500,"1, 2, 3, 3.1, 3.5, 3.6"
+,,Values,0-500,,,Content not present weeks 33-45. Added back in Phase 3.5.
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+INF1,FRMLA_YN,Description,Infants younger than 1 year in household,Are there any babies or infants under the age of 1 year in your household?,1:2,3.6
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,KIDS_LT5Y=1,,,
+,,Internal Notes,,,,
+INF2,FRMLA_AGE,Description,Age of youngest infant in household,"How many months old is the baby or infant in your household? If there are more than one, please report the age of the youngest.",1:3,3.6
+,,Values,"1) Under 6 months?
+2) Between 6 months and 9 months?
+3) Between 9 months and 12 months?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1,,,
+,,Internal Notes,,,,
+INF3,FRMLA_AFFCT,Description,Household affected by the infant formula shortage,Was your household affected by the Infant Formula shortage this year?,1:2,3.6
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL1,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Increased breastfeeding
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL2,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Changed from powder to liquid (i.e., liquid concentrate or ready-to-feed (RTF))
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL3,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Got Infant Formula at a different store than where I usually shop
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL4,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Got Infant Formula online (e.g., Instacart, Amazon, Google Market, secondary market, or other)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL5,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Received direct shipment of Infant Formula from the Infant Formula company
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL6,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Changed to a different brand of Infant Formula (any form, powder or liquid) 
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL7,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Changed from Infant Formula to something else (for example: Cow milk, Goat milk, Soy milk, Almond milk, Oat milk, or Toddler Drink/Formula)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL8,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Stopped offering Infant Formula
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL9,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Watering down formula or “making your own” formula
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF4,FRMLA_DEAL10,Description,How household dealt with the infant formula shortage,Please state how you dealt with the infant formula shortage this year: (Select all that apply),"<blank>,1",3.6
+,,Values,"1) Other, specify?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_AFFCT = 1,,,
+,,Internal Notes,,,,
+INF5,FRMLA_USE,Description,Baby typically use formula,Does the baby typically use Infant Formula?,1:2,3.6
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 ,,,
+,,Internal Notes,,,,
+INF6,FRMLA_DIFFCLT,Description,Formula difficult to obtain past 7 days,"In the last 7 days, did you have difficulty obtaining Infant Formula?",1:2,3.6
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1  and FRMLA_USE = 1,,,
+,,Internal Notes,,,,
+INF7,FRMLA_AMNT,Description,Amount of formula on hand,"Currently, how much Infant Formula do you have on hand?",1:5,3.6
+,,Values,"1) None 
+2) Formula for less than a week
+3) Formula for about a week
+4) Formula for more than a week
+5) Formula for more than two weeks
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1 and FRMLA_USE = 1,,,
+,,Internal Notes,,,,
+INF8,FRMLA_TYP1,Description,Typical formula used,What type of Infant Formula does your infant typically use? Mark all that apply,"<blank>,1",3.6
+,,Values,"1) Regular or Routine Infant Formula (e.g Similac, Enfamil, Enfagrow, Pregestimil, Enfaport, NAN, Good Start, NIDO, KLIM, Earths Best, Happy Baby, Burts Bees, Kabrita, Babys Only, Else, Lil Mixins, Babys Choice, Kendamil, J&J Sunrise, PediaSmart, Family Wellness, Happy Tot, Store Label, Private Label)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1  and FRMLA_USE = 1,,,
+,,Internal Notes,,,,
+INF8,FRMLA_TYP2,Description,How household dealt with the infant formula shortage,What type of Infant Formula does your infant typically use? Mark all that apply,"<blank>,1",3.6
+,,Values,"1) Extensively Hydrolyzed Infant Formula (e.g., Alimentum, Alimentum Liquid, Gerber Extensive, Nutramigen)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1  and FRMLA_USE = 1,,,
+,,Internal Notes,,,,
+INF8,FRMLA_TYP3,Description,How household dealt with the infant formula shortage,What type of Infant Formula does your infant typically use? Mark all that apply,"<blank>,1",3.6
+,,Values,"1) Amino Acid Based Infant Formula (e.g., Alfamino, EleCare, Neocate, Puramino)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1  and FRMLA_USE = 1,,,
+,,Internal Notes,,,,
+INF8,FRMLA_TYP4,Description,How household dealt with the infant formula shortage,What type of Infant Formula does your infant typically use? Mark all that apply,"<blank>,1",3.6
+,,Values,"1) Metabolic Infant Formulas (e.g., Calcilo, Cyclinex-1,  Glutarex-1,  Hominex-1, I-Valex-1, Ketonex-1, Phenex-1,  Pro-Phree, Propimex-1,  RCF, Tyrex-1) 
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,Added Phase 3.6
+,,Universe,FRMLA_YN = 1  and FRMLA_USE = 1,,,
+,,Internal Notes,,,,
+HLTH1,ANXIOUS,Description,Frequency of anxiety over previous 2 weeks,"Next, we will ask about health and medical care. 
+
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer.",1:4,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH2,WORRY,Description,Frequency of worry over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by the not being able to stop or control worrying? Select only one answer.",1:4,"2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH3,INTEREST,Description,Frequency of having little interest in things over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by having little interest or pleasure in doing things? Select only one answer.",1:4,"2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH4,DOWN,Description,Frequency of feeling depressed over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless? Select only one answer.",1:4,"2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Not at all
+2) Several days
+3) More than half the days
+4) Nearly every day 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH8,HLTHINS1,Description,Health Insurance Coverage- Insurance through a current or former employer or union (through yourself or another family member),"Are you currently covered by any of the following types of health insurance or health coverage plans? Mark Yes or No for each. 
+- Insurance through a current or former employer or union (through yourself or another family member)","<blank>,1,2","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Category marked- Insurance through a current or former employer or union (through yourself or another family member) 
+2) Category marked ""No""
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH8,HLTHINS2,Description,"Health Insurance Coverage- Insurance purchased directly from an insurance company, including marketplace coverage (through yourself or another family member)","Are you currently covered by any of the following types of health insurance or health coverage plans? Mark Yes or No for each. 
+- Insurance purchased directly from an insurance company, including marketplace coverage (through yourself or another family member)","<blank>,1,2","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Category marked-Insurance purchased directly from an insurance company, including marketplace coverage (through yourself or another family member) 
+2) Category marked ""No""
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH8,HLTHINS3,Description,"Health Insurance Coverage- Medicare, for people 65 and older, or people with certain disabilities","Are you currently covered by any of the following types of health insurance or health coverage plans? Mark Yes or No for each. 
+- Medicare, for people 65 and older, or people with certain disabilities","<blank>,1,2","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Category marked-Medicare, for people 65 and older, or people with certain disabilities 
+2) Category marked ""No""
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH8,HLTHINS4,Description,"Health Insurance Coverage- Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or a disability","Are you currently covered by any of the following types of health insurance or health coverage plans? Mark Yes or No for each. 
+- Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or a disability","<blank>,1,2","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Category marked-Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or a disability
+2) Category marked ""No""
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH8,HLTHINS5,Description,Health Insurance Coverage- TRICARE or other military health care,"Are you currently covered by any of the following types of health insurance or health coverage plans? Mark Yes or No for each. 
+- TRICARE or other military health care","<blank>,1,2","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Category marked-TRICARE or other military health care 
+2) Category marked ""No""
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH8,HLTHINS6,Description,Health Insurance Coverage- VA (including those who have ever used or enrolled for VA health care),"Are you currently covered by any of the following types of health insurance or health coverage plans? Mark Yes or No for each. 
+- VA (including those who have ever used or enrolled for VA health care)","<blank>,1,2","3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Category marked-VA (including those who have ever used or enrolled for VA health care) 
+2) Category marked ""No""
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH8,HLTHINS7,Description,Health Insurance Coverage- Indian Health Service,"Are you currently covered by any of the following types of health insurance or health coverage plans? Mark Yes or No for each. 
+- Indian Health Service","<blank>,1,2","3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Category marked-Indian Health Service 
+2) Category marked ""No""
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Focused only on respondent experience, will weight to number of adults…
+Modified for 3.2 to split into two categories"
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH8,HLTHINS8,Description,Health Insurance Coverage- Other,"Are you currently covered by any of the following types of health insurance or health coverage plans? Mark Yes or No for each. 
+- Other","<blank>,1,2","3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Category marked- Other 
+2) Category marked ""No""
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"Focused only on respondent experience, will weight to number of adults…
+Modified for 3.2 to split into two categories"
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR1,Description,Feeling anxious,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) Feel anxious or clingy?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,"New in Phase 3.5, 3.6"
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR2,Description,feeling sad or depressed,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) Feel very sad or depressed? 
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR3,Description,Changes to eating habbits,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) Show changes in eating behaviors, such as eating more or less than normal, or became extremely picky?
+-99) Question seen but category not selected",,,New in Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR4,Description,Ability to focus,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) Show changes in their ability to stay focused, such as becoming easily distracted?
+-99) Question seen but category not selected",,,New in Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR5,Description,Signs of anger ,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) Show unusual anger or outbursts?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR6,Description,Siggns of problematic behaviour,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) Engage in problematic behaviors such as lying, cheating, stealing, or bullying?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR7,Description,Developemental regression,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) Behave in ways that they’ve previously outgrown, such as thumb sucking or wetting the bed?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR8,Description,Unspeciffic physical pain,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) Complain of physical pain with no medical issue such as stomach aches or pains?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+HLTH14,KIDBHVR9,Description,No changes in behaviour,"Think about all of the children living in your household. IN THE PAST 4 WEEKS, did any of these children seem to (check all that apply):","<blank>,1","3.5, 3.6"
+,,Values,"1) None of the children in my household exhibited any of these behaviors
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,HHLD_NUMKID > 0,,,
+,,Internal Notes,,,,
+DIS1,SEEING,Description,Limitations in seeing,"Do you have difficulty seeing, even when wearing glasses? Select one.",1:4,"3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) No - no difficulty
+2) Yes - some difficulty
+3) Yes - a lot of difficulty
+4) Cannot do at all
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+DIS2,HEARING,Description,Limitations in hearing,"Do you have difficulty hearing, even when using a hearing aid? Select one.",1:4,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) No - no difficulty
+2) Yes - some difficulty
+3) Yes - a lot of difficulty
+4) Cannot do at all
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+DIS3,REMEMBERING,Description,Limitations in remembering or concentrating,Do you have difficulty remembering or concentrating? Select one.,1:4,"2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) No - no difficulty
+2) Yes - some difficulty
+3) Yes - a lot of difficulty
+4) Cannot do at all
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+DIS4,MOBILITY,Description,Limitations in mobility,Do you have difficulty walking or climbing stairs? Select one.,1:4,"2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) No - no difficulty
+2) Yes - some difficulty
+3) Yes - a lot of difficulty
+4) Cannot do at all
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+DIS5,SELFCARE,Description,Limitations in self-care,"Do you have difficulty with self-care, such as washing all over or dressing? Select one.",1:4,"3.5, 3.6"
+,,Values,"1) No - no difficulty
+2) Yes - some difficulty
+3) Yes - a lot of difficulty
+4) Cannot do at all
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+DIS6,UNDERSTAND,Description,Limitations in understanding or being understood,"Using your usual language, do you have difficulty communicating, for example understanding or being understood? Select one.",1:4,"3.5, 3.6"
+,,Values,"1) No - no difficulty
+2) Yes - some difficulty
+3) Yes - a lot of difficulty
+4) Cannot do at all
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HSE1,TENURE,Description,Housing owned or rented,Is your house or apartment…? Select only one answer.,1:4,"2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Owned by you or someone in this household free and clear?
+2) Owned by your or someone in this household with a mortgage or loan (including home equity loans)?
+3) Rented?
+4) Occupied without payment of rent?
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HSENEW1,TRENTAMT,Description,Monthly Rent,What is your current monthly rent?,$0-$99999,"3.5, 3.6"
+,,Values,0-99999,,,New in Phase 3.5
+,,Universe,TENURE = 3,,,
+,,Internal Notes,,,,
+HSENEW2,RENTCHNG,Description,Changes to  Rent Amount,"Has your monthly rent changed during the last 12 months? If so, by how much?",1:6,"3.5, 3.6"
+,,Values,"1) My rent did not change.
+2) My rent decreased. 
+3) My rent increased by <$100. 
+4) My rent increased by $100-$249.  
+5) My rent increased by $250-$500. 
+6) My rent increased by more than $500
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,TENURE = 3,,,
+,,Internal Notes,,,,
+HSE2,LIVQTRRV,Description,Building Type,"Which best describes this building? Include all apartments, flats, etc., even if vacant. Select only one answer.",1:7,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) A mobile home 
+2) A one-family house detached from any other house 
+3) A one-family house attached to one or more houses 
+4) A building with 2 apartments 
+5) A building with 3 or 4 apartments 
+6) A building with 5 or more apartments 
+7) Boat, RV, van, etc.
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HSE3,RENTCUR,Description,Caught up on rent,Is this household currently caught up on rent payments? Select only one answer.,1:2,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If TENURE = 3,,,
+,,Internal Notes,,,,
+HSE4,MORTCUR,Description,Caught up on mortgage,Is this household currently caught up on mortgage payments? Select only one answer.,1:2,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes
+2) No
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If TENURE = 2,,,
+,,Internal Notes,,,,
+HSE6,TMNTHSBHND,Description,Months behind in rent or mortgage,How many months behind is this household in paying your rent or mortgage? Enter number of months,1:48,"2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,(0-48) number of months (whole number),,,
+,,Universe,If RENTCUR = 2 or MORTCUR = 2,,,
+,,Internal Notes,,,,
+HSE7,RENTASSIST,Description,Application for emergency rental assistance,Have you or anyone in your household applied for emergency rental assistance through your state or local government to cover your unpaid rent or utility bills?,1:4,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) My household applied and received assistance
+2) My household applied and is waiting for a response
+3) My household applied and the application was denied
+4) My household did not apply 
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,if TENURE = 3,,,
+,,Internal Notes,,,,
+HSE8,EVICT,Description,Eviction in next two months,How likely is it that your household will have to leave this home or apartment within the next two months because of eviction? Select only one answer.,1:4,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Very likely
+2) Somewhat likely
+3) Not very likely
+4) Not likely at all
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If RENTCUR = 2,,,
+,,Internal Notes,,,,
+HSE9,FORCLOSE,Description,Forclose in next two months,How likely is it that your household will have to leave this home within the next two months because of foreclosure? Select only one answer.,1:4,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Very likely
+2) Somewhat likely
+3) Not very likely
+4) Not at all likely
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If MORTCUR = 2,,,
+,,Internal Notes,,,,
+HSE10,ENERGY,Description,Trouble paying energy bill,"In the last 12 months, how many months did your household reduce or forego expenses for basic household necessities, such as medicine or food, in order to pay an energy bill?",1:4,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Almost every month
+2) Some months
+3) 1 or 2 months
+4) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HSE11,HSE_TEMP,Description,Kept household at unsafe temp because of cost,"In the last 12 months, how many months did your household keep your home at a temperature that you felt was unsafe or unhealthy?",1:4,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Almost every month
+2) Some months
+3) 1 or 2 months
+4) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+HSE12,ENRGY_BILL,Description,Unable to pay full energy bill,"In the last 12 months, how many times was your household unable to pay an energy bill or unable to pay the full bill amount?",1:4,"3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Almost every month
+2) Some months
+3) 1 or 2 months
+4) Never
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+GAS,GAS1,Description,Cost of gas,Has the cost of gas in the last 7 days caused you to:  Select all that apply.,"<blank>,1",3.6
+,,Values,"1) Choose not to take a trip (i.e. chose not to visit a friend/restaurant/park etc., change a task from in-person to online to reduce gas use)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+GAS,GAS2,Description,Cost of gas,Has the cost of gas in the last 7 days caused you to:  Select all that apply.,"<blank>,1",3.6
+,,Values,"1) Combine trips
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+GAS,GAS3,Description,Cost of gas,Has the cost of gas in the last 7 days caused you to:  Select all that apply.,"<blank>,1",3.6
+,,Values,"1) Take alternative modes of transportation (i.e. transit, ridesharing, bike, etc.)
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+GAS,GAS4,Description,Cost of gas,Has the cost of gas in the last 7 days caused you to:  Select all that apply.,"<blank>,1",3.6
+,,Values,"1) None of these, the cost of gas has not affected my driving behavior
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,New in Phase 3.6
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC1,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.4, 3.5, 3.6"
+,,Values,"1) Children received in-person instruction from a teacher at their school
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC2,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.4, 3.5, 3.6"
+,,Values,"1) Children received virtual/online instruction from a teacher in real time
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC3,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.4, 3.5, 3.6"
+,,Values,"1) Children learned on their own using on-line materials provided by their school
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC4,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.4, 3.5, 3.6"
+,,Values,"1) Children learned on their own using paper materials provided by their school
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC5,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.4, 3.5, 3.6"
+,,Values,"1) Children learned on their own using materials that were NOT provided by their school
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC6,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.4, 3.5, 3.6"
+,,Values,"1) Children did not participate in any learning activities because their school was closed
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC7,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.4, 3.5, 3.6"
+,,Values,"1) Children were sick and could not participate in education
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC8,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.4, 3.5, 3.6"
+,,Values,"1) Children were on summer break
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,"3.5 Update: value updated from ""Other"" in 3.4 to ""children were on summer break"" in 3.6"
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+K12ED1,RCVEDUC9,Description,How children received education,"During the last 7 days, how did the children in this household receive their education?  Select all that apply.","<blank>,1","3.5, 3.6"
+,,Values,"1) Other__Specify
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,New in Phase 3.5
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0,,,
+,,Internal Notes,,,,
+ED1,SUMMER_ED1,Description,Summer educational catch-up activities,"After the end of the normal school year in the Spring of 2022, did any of the Kindergarten through 12th grade students in your household: Please select all that apply.","<blank>,1","3.2, 3.6"
+,,Values,"1) Attend a traditional summer school program because of poor grades?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0 or ENROLLHMSCH > 0,,,
+,,Internal Notes,,,,
+ED1,SUMMER_ED2,Description,Summer educational catch-up activities,"After the end of the normal school year in the Spring of 2022, did any of the Kindergarten through 12th grade students in your household: Please select all that apply.","<blank>,1","3.2, 3.6"
+,,Values,"1) Attend a summer school program to help students catch up with lost learning time during the pandemic?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0 or ENROLLHMSCH > 0,,,
+,,Internal Notes,,,,
+ED1,SUMMER_ED3,Description,Summer educational catch-up activities,"After the end of the normal school year in the Spring of 2022, did any of the Kindergarten through 12th grade students in your household: Please select all that apply.","<blank>,1","3.2, 3.6"
+,,Values,"1) Attend school-led summer camps for subjects like math, science or reading?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0 or ENROLLHMSCH > 0,,,
+,,Internal Notes,,,,
+ED1,SUMMER_ED4,Description,Summer educational catch-up activities,"After the end of the normal school year in the Spring of 2022, did any of the Kindergarten through 12th grade students in your household: Please select all that apply.","<blank>,1","3.2, 3.6"
+,,Values,"1) Work with private tutors to help students catch up with lost learning time during the pandemic?
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0 or ENROLLHMSCH > 0,,,
+,,Internal Notes,,,,
+ED1,SUMMER_ED5,Description,Summer educational catch-up activities,"After the end of the normal school year in the Spring of 2022, did any of the Kindergarten through 12th grade students in your household: Please select all that apply.","<blank>,1",3.6
+,,Values,"1) None of these
+-99) Question seen but category not selected
+ -88) Missing / Did not report",,,
+,,Universe,If ENROLLPUB > 0  or ENROLLPRV > 0 or ENROLLHMSCH > 0,,,
+,,Internal Notes,,,,
+INC1,INCOME,Description,Total household income (before taxes),In 2021 what was your total household income before taxes? Select only one answer.,1:8,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Less than $25,000  
+2) $25,000 - $34,999  
+3) $35,000 - $49,999   
+4) $50,000 - $74,999   
+5) $75,000 - $99,999   
+6) $100,000 - $149,999   
+7) $150,000 - $199,999
+8) $200,000 and above
+-99) Question seen but category not selected
+-88) Missing / Did not report",,,
+,,Universe,All persons born before 2004,,,
+,,Internal Notes,,,,
+-,ABIRTH_YEAR,Description,Year of birth allocation flag,,1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Imputed
+2) Not imputed",,,
+,,Universe,All persons,,,
+,,Internal Notes,Hot deck imputation prior to top/bottom coding.  ,,,
+-,AGENID_BIRTH,Description,Gender at birth allocation flag,,1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Imputed
+2) Not imputed",,,
+,,Universe,All persons,,,
+,,Internal Notes,Hot deck imputation prior to top/bottom coding.  ,,,
+-,AHISPANIC,Description,Hispanic origin allocation flag,,1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Imputed
+2) Not imputed",,,
+,,Universe,All persons,,,
+,,Internal Notes,Hot deck imputation prior to top/bottom coding.  ,,,
+-,ARACE,Description,Race allocation flag,,1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Imputed
+2) Not imputed",,,
+,,Universe,All persons,,,
+,,Internal Notes,Hot deck imputation using the full set of mark all race categories prior to recode.  ,,,
+-,AEDUC,Description,Educational attainment allocation flag,,1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Imputed
+2) Not imputed",,,
+,,Universe,All persons,,,
+,,Internal Notes,Hot deck imputation prior to top/bottom coding.  ,,,
+-,AHHLD_NUMPER,Description,Household size allocation flag,,1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Imputed
+2) Not imputed",,,
+,,Universe,All persons,,,
+,,Internal Notes,Hot deck imputation with ratio to set proportion of adults and children prior to top/bottom coding.  ,,,
+-,AHHLD_NUMKID,Description,Number of children allocation flag,,1:2,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Imputed
+2) Not imputed",,,
+,,Universe,All persons,,,
+,,Internal Notes,Hot deck imputation with ratio to set proportion of adults and children prior to top/bottom coding.  ,,,
+-,EST_ST,Description,State,,01-56,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"                    '01'='Alabama'
+                    '02'='Alaska'
+                    '04'='Arizona'
+                    '05'='Arkansas'
+                    '06'='California'
+                    '08'='Colorado'
+                    '09'='Connecticut'
+                    '10'='Delaware'
+                    '11'='District of Columbia'
+                    '12'='Florida'
+                    '13'='Georgia'
+                    '15'='Hawaii'
+                    '16'='Idaho'
+                    '17'='Illinois'
+                    '18'='Indiana'
+                    '19'='Iowa'
+                    '20'='Kansas'
+                    '21'='Kentucky'
+                    '22'='Louisiana'
+                    '23'='Maine'
+                    '24'='Maryland'
+                    '25'='Massachusetts'
+                    '26'='Michigan'
+                    '27'='Minnesota'
+                    '28'='Mississippi'
+                    '29'='Missouri'
+                    '30'='Montana'
+                    '31'='Nebraska'
+                    '32'='Nevada'
+                    '33'='New Hampshire'
+                    '34'='New Jersey'
+                    '35'='New Mexico'
+                    '36'='New York'
+                    '37'='North Carolina'
+                    '38'='North Dakota'
+                    '39'='Ohio'
+                    '40'='Oklahoma'
+                    '41'='Oregon'
+                    '42'='Pennsylvania'
+                    '44'='Rhode Island'
+                    '45'='South Carolina'
+                    '46'='South Dakota'
+                    '47'='Tennessee'
+                    '48'='Texas'
+                    '49'='Utah'
+                    '50'='Vermont'
+                    '51'='Virginia'
+                    '53'='Washington'
+                    '54'='West Virginia'
+                    '55'='Wisconsin'
+                    '56'='Wyoming'",,,
+,,Universe,,,,
+,,Internal Notes,,,,
+-,EST_MSA,Description,Metropolitan statistical area,,Varying,"3.3, 3.4, 3.5, 3.6"
+,,Values,"35620' = New York-Newark-Jersey City, NY-NJ-PA Metro Area
+'31080' = Los Angeles-Long Beach-Anaheim, CA Metro Area
+'16980' = Chicago-Naperville-Elgin, IL-IN-WI Metro Area
+'19100' = Dallas-Fort Worth-Arlington, TX Metro Area
+'26420' = Houston-The Woodlands-Sugar Land, TX Metro Area
+'47900' = Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area
+'33100' = Miami-Fort Lauderdale-Pompano Beach, FL Metro Area
+'37980' = Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area
+'12060' = Atlanta-Sandy Springs-Alpharetta, GA Metro Area
+'38060' = Phoenix-Mesa-Chandler, AZ Metro Area
+'14460' = Boston-Cambridge-Newton, MA-NH Metro Area
+'41860' = San Francisco-Oakland-Berkeley, CA Metro Area
+'40140' = Riverside-San Bernardino-Ontario, CA Metro Area
+'19820' = Detroit-Warren-Dearborn, MI Metro Area
+'42660' = Seattle-Tacoma-Bellevue, WA Metro Area",,,
+,,Universe,,,,
+,,Internal Notes,,,,
+-,PWEIGHT,Description,Person level weight,,TBD,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,TBD,,,
+,,Universe,,,,
+,,Internal Notes,,,,
+-,HWEIGHT,Description,Household level weight,-,Varying,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,,,,
+,,Universe,,,,
+,,Internal Notes,,,,
+-,PRIVHLTH,Description,Recode of Q36 Health Insurance ,Recode of Q36 Health Insurance Variables,"1,2,3","3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes, Has Private Health Insurance
+2) No Private Health Insurance
+3) Missing ",,,
+,,Universe,All Persons,,,
+,,Internal Notes,"/*PRIVHLTH Recode*/
+privhlth=3;
+If HLTHINS1=1 or HLTHINS2=1 or HLTHINS5=1 then PRIVHLTH=1; *Yes-Private;
+If (HLTHINS1 in (2) and HLTHINS2 in (2) and HLTHINS5 in (2)) or 
+((HLTHINS1 in (2,-99,.m) and HLTHINS2 in (2,-99,.m) and HLTHINS3 in (2,-99,.m) and HLTHINS4 in (2,-99,.m) and HLTHINS5 in (2,-99,.m) and HLTHINS6 in (2,-99,.m)) and HLTHINS7=1) then PRIVHLTH=2; *No-Private;",,,
+-,PUBHLTH,Description,Recode of Q36 Health Insurance ,Recode of Q36 Health Insurance Variables,"1,2,3","2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Yes, Has Public Health Insurance
+2) No Public Health Insurance
+3) Missing ",,,
+,,Universe,All Persons,,,
+,,Internal Notes,"/*PUBHLTH Recode*/
+pubhlth=3;
+If (HLTHINS3=1 or HLTHINS4=1 or HLTHINS6=1) then PUBHLTH=1; *Yes-Public;
+If (HLTHINS3 in (2) and HLTHINS4 in (2) and HLTHINS6 in (2)) or 
+((HLTHINS1 in (2,-99,.m) and HLTHINS2 in (2,-99,.m) and HLTHINS3 in (2,-99,.m) and HLTHINS4 in (2,-99,.m) and HLTHINS5 in (2,-99,.m) and HLTHINS6 in (2,-99,.m)) and HLTHINS7=1) then PUBHLTH=2; *No-Public;",,,
+-,REGION,Description,Recode of EST_ST for Census Region,Recode of EST_ST for Census Region,"1,2,3,4","1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,"1) Northeast
+2) South
+3) Midwest
+4) West",,,
+,,Universe,All Persons,,,
+,,Internal Notes,"IF EST_ST in (09,23,25,33,34,36,42,44,50) THEN REGION = 1 (Northeast)
+IF EST_ST in (01,05,10,11,12,13,21,22,24,28,37,40,45,47,48,51,54) THEN REGION = 2 (South)
+IF EST_ST in (18,17,19,20,26,27,29,31,38,39,46,55) THEN REGION = 3 (Midwest)
+IF EST_ST in (02,04,06,08,15,16,30,32,35,41,49,53,56) THEN REGION = 4 (West)",,,
+-,SCRAM,Description,Record identifier,-,Varying,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,Varying,,,
+,,Universe,All persons,,,
+,,Internal Notes,Unique record ID for linking replicate weights. Was also used for longitudinal linking for cycles 1-12. ,,,
+-,WEEK,Description,Week of interview,-,51,"1, 2, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6"
+,,Values,51,,,
+,,Universe,All persons,,,
+,,Internal Notes,,,,
